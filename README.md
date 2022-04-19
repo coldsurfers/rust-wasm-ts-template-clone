@@ -25,6 +25,12 @@ wasm-pack build
 1. Ensure that the local development server and its dependencies are installed by running this command within the `www` subdirectory:
 ```sh
 npm install
+# if you use yarn
+yarn install
+cd pkg
+yarn link
+cd www
+yarn link rust-wasm
 ```
 
 2. Run this command from within the `www` subdirectory:
