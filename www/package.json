@@ -1,0 +1,12 @@
+{
+  "name": "wasm-typescript",
+  "version": "0.1.0",
+  "description": "A template of Rust + WebAssembly with TypeScript (🦀 + 🕸️ = 💖)",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "author": "Chris Ohk <utilForever@gmail.com>"
+}
