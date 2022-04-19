@@ -1,4 +1,10 @@
-pkg
-target
+# Rust + WebAssembly
+pkg/
+bin/
+target/
 Cargo.lock
+wasm-pack.log
+
+# Typescript
 www/node_modules
+www/dist
